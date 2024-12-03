@@ -3,12 +3,14 @@
     margin: 20px;
         &__button {
             color: $color-brand;
-            font-size: 18px;
+            font-size: 1.8rem;
             padding: 10px;
             padding-left: 50px;
             padding-right: 50px;
-            border: 1.5px solid $color-brand;
-            border-radius: 30px;}
+            border: 2px solid $color-brand;
+            border-radius: 30px;
+            margin-top: 20px;
+            margin-bottom: 10px;}
     }
 
 .shop__article h4 {
