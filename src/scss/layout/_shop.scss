@@ -1,31 +1,33 @@
 .shop {
     text-align: left;
     margin: 20px;
-    width: 100%;
-    &__button {
-        color: $color-brand;
-        font-size: 18px;
-        padding: 10px;
-        padding-left: 50px;
-        padding-right: 50px;
-        border: 1px solid $color-brand;
-        border-radius: 30px;}
+        &__button {
+            color: $color-brand;
+            font-size: 18px;
+            padding: 10px;
+            padding-left: 50px;
+            padding-right: 50px;
+            border: 1.5px solid $color-brand;
+            border-radius: 30px;}
     }
 
 .shop__article h4 {
     font-family: $font-main;
     color: $color-brand;
+    font-size: 1.2rem;
     padding-top: 10px;
 }
 .shop__article p {
     font-family: $font-main;
     color: $color-text;
+    font-size: 1.6rem;
     padding-bottom: 30px;
-    line-height: 25px;
+    line-height: 30px;
 }
 
 .shop__article h2 {
     font-family: $font-title;
+    font-size: 1.8rem;
     padding-bottom: 10px;
     padding-top: 10px;
 }

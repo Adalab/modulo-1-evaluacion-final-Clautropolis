@@ -1,23 +1,44 @@
 .section__hero {
-    height: 100%;
-    background-image: url(./images/cover.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    height: 100vh;
     position: relative;
-    &--image {
-        position: relative;
-        top: 0;
-        left: 0;
-        width: 100%;
-        z-index: -1;
-        }
-    &--content {
-        color: white;
-        position: absolute;
-        top: 50%;
-        left: 25%;
-        width: 40%;
-        text-align: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('../images/cover.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: 83% 100%;
+    z-index: -1;
+
+        &--content {
+            color: white;
+            position: absolute;
+            top: 650px;
+            width: 80%;
+            text-align: center;
+
+                    h1 {
+                        font-family: $font-title;
+                        font-size: 3rem;
+                        line-height: 80px ;}
+                    p {
+                        font-family: $font-main;
+                        font-size: 1.8rem;
+                        margin-top: 20px;}
+                    button {
+                        width: 5rem;
+                        height: 5rem;
+                        color: $color-brand;
+                        background-color: white;
+                        border-radius: 50%;
+                        border: none;
+                        transform: translateY(70px);
+                        i {
+                            color: $color-brand;
+                            font-size: 2rem;
+                            transform: rotate(90deg);}
         }
     }
+}
