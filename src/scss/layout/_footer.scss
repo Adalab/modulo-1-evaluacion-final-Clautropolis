@@ -3,8 +3,8 @@
         position: relative;
 
     &__button {
-        width: 5rem;
-        height: 5rem;
+        width: 3rem;
+        height: 3rem;
         color: $color-brand;
         background-color: white;
         border-radius: 50%;
@@ -17,7 +17,7 @@
 
             i {
                 color: $color-brand;
-                font-size: 2rem;
+                font-size: 1.4rem;
                 transform: rotate(-90deg);
             }
     }
@@ -26,7 +26,7 @@
 .links {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-rows: 2fr 2fr 1fr;
 
         @media (width>768px) {
             grid-template-columns: 1fr 1fr 1fr;
@@ -67,8 +67,8 @@
         font-size: 1.2rem;
         font-weight: 300;
         gap: 16px;
-        margin-top: 40px;
-        margin-bottom: 70px;
+        margin-top: 30px;
+        margin-bottom: 30px;
 
             @media (width>768px) {
                 order: 2;
@@ -85,9 +85,8 @@
         font-family: $font-main;
         font-size: 1rem;
         font-weight: 300;
-        span {color: $color-brand}
+            span {color: $color-brand}
         text-align: center;
-        margin-bottom: 40px;
         line-height: 40px;
         letter-spacing: 2px;
     }

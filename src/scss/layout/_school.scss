@@ -16,6 +16,11 @@
             border-radius: 32px;
             margin-top: 13px;
             margin-bottom: 40px;
+
+            &:hover {
+                color: $color-brand;
+                background-color: white;
+            }
         }
         &__images{
             font-family: $font-title;

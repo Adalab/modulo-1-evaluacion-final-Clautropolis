@@ -7,8 +7,7 @@
     align-items: center;
     text-align: center;
     background-image: url('../images/cover.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat; 
+    background-size: cover; 
     background-position: 83% 100%;
     z-index: -1;
         @media (min-width:1280px) {background-position: 83% 60%;}
@@ -59,9 +58,12 @@
                 font-size: 1rem;
                 margin-top: 20px;
 
-                @media (width>768px) {
+                @media (min-width:768px) {
                     font-size: 1.4rem;
                     width: 40%;
+                    }
+                @media (min-width:1280px) {
+                    width: 80%;
                     }
                 }
                     

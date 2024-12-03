@@ -10,7 +10,12 @@
             border: 2px solid $color-brand;
             border-radius: 30px;
             margin-top: 20px;
-            margin-bottom: 10px;}
+            margin-bottom: 10px;
+            
+            &:hover {
+                color: white;
+                background-color: $color-brand;}
+        }
             @media (min-width:1280px) {
                 margin-right: 100px;
                 margin-left: 100px;}
