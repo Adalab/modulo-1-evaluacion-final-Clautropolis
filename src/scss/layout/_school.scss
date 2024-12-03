@@ -7,14 +7,14 @@
     justify-content: center;
     align-items: center;
         &__button {
-            font-size: 2rem;
+            font-size: 1.5rem;
             font-family: $font-main;
-            padding: 20px 40px 20px 40px;
+            padding: 16px 32px 16px 32px;
             color: white;
             background-color: $color-brand;
             border: 1px solid $color-brand;
-            border-radius: 40px;
-            margin-top: 14px;
+            border-radius: 32px;
+            margin-top: 13px;
             margin-bottom: 40px;
         }
         &__images{
@@ -24,6 +24,11 @@
             grid-template-rows: 1fr 1fr 1fr;
             gap: 20px;
             margin-top: 20px;
+
+            @media (width>768px) {
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 1fr;
+            }
         }
         &__articles {
             display: flex;
@@ -37,7 +42,7 @@
                     border-radius: 50%;
                     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);}  
                 &--title {
-                    font-size: 1.6rem;}
+                    font-size: 1.2rem;}
         }
 }
 
@@ -45,6 +50,6 @@
 
 .school h5 {
     color: $color-text;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 10px;}
 
