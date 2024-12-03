@@ -1,0 +1,25 @@
+.school {
+    background-color: #d9e4cc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.school h5,h2 {font-family: $font-title;}
+
+.school h5 {color: $color-text;}
+
+.school__images{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+        &--pic {
+        width: 114px;
+            border-radius: 50%;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+}
+

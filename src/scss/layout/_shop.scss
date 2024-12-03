@@ -1,0 +1,31 @@
+.shop {
+    text-align: left;
+    margin: 20px;
+    width: 100%;
+    &__button {
+        color: $color-brand;
+        font-size: 18px;
+        padding: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        border: 1px solid $color-brand;
+        border-radius: 30px;}
+    }
+
+.shop__article h4 {
+    font-family: $font-main;
+    color: $color-brand;
+    padding-top: 10px;
+}
+.shop__article p {
+    font-family: $font-main;
+    color: $color-text;
+    padding-bottom: 30px;
+    line-height: 25px;
+}
+
+.shop__article h2 {
+    font-family: $font-title;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}

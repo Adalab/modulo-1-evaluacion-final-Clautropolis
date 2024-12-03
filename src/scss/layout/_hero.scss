@@ -1,0 +1,23 @@
+.section__hero {
+    height: 100%;
+    background-image: url(./images/cover.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    &--image {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: -1;
+        }
+    &--content {
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        width: 40%;
+        text-align: center;
+        }
+    }

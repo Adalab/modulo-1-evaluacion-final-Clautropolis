@@ -1,5 +1,8 @@
-.page__header {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
-}
+.header {
+      background-color: $color-brand;
+      position: fixed;
+    &__menu {
+        padding: 20px;
+        z-index: 100;
+    }}
+    
