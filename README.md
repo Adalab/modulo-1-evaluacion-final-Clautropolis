@@ -39,7 +39,7 @@ Dentro de las secciones con las que cuenta el proyecto, encontramos algunas dife
 
 - Tercera sección. En esta sección tenemos 3 categorías diferentes que deben ser maquetadas con la propiedad de display: grid. Esta sección es una de las que más cambios representaba a la hora de implementar los media queries para hacer un diseño responsive.
 
-- Footer. Todos los elementos de las listas del footer debían de ser clicables. Al igual que el botón de la flecha hacia arriba, que nos lleva a la primera sección de todas. Esta sección también ha sido maquetada con display: grid, con el objetivo de facilitar su disposición en los cambios de los media queries.
+- Footer. Todos los elementos de las listas del footer debían de ser clicables. Al igual que el botón de la flecha hacia arriba, que nos lleva a la primera sección de todas. Esta sección también ha sido maquetada con display: grid, con el objetivo de facilitar su disposición en los cambios de los media queries. En esta sección se han hecho pruebas con la propiedad animation, para hacer que la flecha del botón que sube de nuevo a la primera sección cambie de posición al pasar el ratón por encima.
 
 ## Tecnología utilizada
 
