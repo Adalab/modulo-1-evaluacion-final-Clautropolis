@@ -3,7 +3,7 @@
     margin: 20px;
         &__button {
             color: $color-brand;
-            font-size: 1.8rem;
+            font-size: 1.4rem;
             padding: 10px;
             padding-left: 50px;
             padding-right: 50px;
@@ -39,6 +39,7 @@
 .shop__article h2 {
     font-family: $font-title;
     font-size: 1.5rem;
+    font-weight: 700;
     padding-bottom: 10px;
     padding-top: 10px;
 }

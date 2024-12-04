@@ -7,7 +7,7 @@
     justify-content: center;
     align-items: center;
         &__button {
-            font-size: 1.5rem;
+            font-size: 1.4rem;
             font-family: $font-main;
             padding: 16px 32px 16px 32px;
             color: white;
@@ -47,11 +47,17 @@
                     border-radius: 50%;
                     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);}  
                 &--title {
-                    font-size: 1.2rem;}
+                    font-size: 1.1rem;
+                    font-weight: 600;}
         }
 }
 
-.school h5,h2 {font-family: $font-title;}
+.school h5,h2 {
+    font-family: $font-title;
+    font-weight: bold;
+}
+
+.school h2 {font-size: 1.2rem;}
 
 .school h5 {
     color: $color-text;

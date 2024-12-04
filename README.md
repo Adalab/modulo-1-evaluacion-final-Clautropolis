@@ -1,123 +1,55 @@
-# ¡Vuelta al cole!
+# ¡Vuelta al cole! 🚀
 
-Ahoy! Este es nuestro Starter Kit creado en **node y vite**. ¿Y qué es un Starter kit? Pues es una **plantilla de proyecto con funcionalidades preinstaladas y preconfiguradas**.
+Esta es la página web de una tienda de deportes cuyo objetivo es preparar a los niños con la mejor equipación de cara a la vuelta al cole. 
+Con este proyecto buscábamos crear un sitio intuitivo, que fuera fácil de manejar para todos los usuarios, tanto con experiencia tecnológica como sin ella.
 
-Este Kit incluye un motor de plantillas HTML, el preprocesador SASS y un servidor local y muchas cosas más. El Kit nos ayuda a trabajar más cómodamente, nos automatiza tareas.
+El proyecto ha sido configurado para ejecutarse con **Node.js y Vite**. 
 
-En el Kit hay 3 tipos de ficheros y carpetas:
+## Cómo instalar el proyecto
 
-- Los ficheros que están sueltos en la raíz del repositorio, como vite.config.js, package.json... Son la configuración del proyecto y no necesitamos modificarlos (excepto este README.md, para describir tu proyecto).
-- La carpeta `src/`: son los ficheros de nuestra página web, como HTML, CSS, JS...
-- La carpeta `public/`, que tiene fichero estáticos como imágenes, fuentes, favicon, librerías de JavaScript antiguas (jQuery, ...)
-- Y la carpeta `docs/`, que es generada automáticamente cuando arrancamos el proyecto. El Kit lee los ficheros que hay dentro de `src/` y `public/`, los procesa y los genera dentro de `public/` y `docs/`.
-
-## Guía de inicio rápido
-
-> **NOTA:** Necesitas tener instalado [Node JS](https://nodejs.org/) con una versión superior a la 14 para trabajar con este Starter Kit:
-
-### Pasos a seguir cada vez que queremos arrancar un proyecto desde cero:
-
-1. **Crea tu propio repositorio.**
-1. Descarga este **Starter kit desde GitHub**.
-   - No recomendamos que clones este repo ya que no podrás añadir commits.
-1. **Copia todos los ficheros** de este Starter kit en la carpeta raíz de tu repositorio.
-   - Recuerda que debes copiar **también los ficheros ocultos** que comienzan por un punto.
-   - Si has decidido clonar este repo, no debes copiar la carpeta `.git`. Si lo haces estarás machacando tu propio repositorio.
-1. **Abre una terminal** en la carpeta raíz de tu repositorio.
-1. **Instala las dependencias** locales ejecutando en la terminal el comando:
+Para instalar el proyecto deberás clonar este repositorio en tu terminal https://github.com/Adalab/modulo-1-evaluacion-final-Clautropolis.git y llevar a cabo los comandos de npm install seguido de npm start.
 
 ```bash
+git clone https://github.com/Adalab/modulo-1-evaluacion-final-Clautropolis.git
+
+cd modulo-1-evaluacion-final-Clautropolis
+
 npm install
-```
 
-### Pasos para arrancar el proyecto:
-
-Una vez hemos instalado las dependencias, vamos a arrancar el proyecto. **El proyecto hay que arrancarlo cada vez que te pongas a programar.** Para ello ejecuta el comando:
-
-```bash
-npm run dev
-```
-
-Este comando:
-
-- **Abre una ventana de Chrome y muestra tu página web**, al igual que hace el plugin de VS Code Live Server (Go live).
-- También **observa** todos los ficheros que hay dentro de la carpeta `src/`, para que cada vez que modifiques un fichero **refresca tu página en Chrome**.
-- También **procesa los ficheros** HTML, SASS / CSS y JS. Por ejemplo:
-   - Convierte los ficheros SASS en CSS.
-   - Combina los diferentes ficheros de HTML y los agrupa en uno o varios ficheros HTML.
-
-Después de ejecutar `npm run dev` ya puedes empezar a editar todos los ficheros que están dentro de la carpeta `src/` y programar cómodamente.
-
-### Pasos para publicar el proyecto en GitHub Pages:
-
-Para generar tu página para producción ejecuta el comando:
-
-```bash
-npm run build
-```
-
-Y a continuación:
-
-1. Sube a tu repo la carpeta `docs/` que se te acaba de generar.
-1. Entra en la pestaña `settings` de tu repo.
-1. Y en el apartado de GitHub Pages activa la opción **master branch /docs folder**.
-1. Y ya estaría!!!
-
-Además, los comandos:
-
-```bash
-npm run push-docs
-```
-o
-
-```bash
-npm run deploy
-```
-
-son un atajo que nos genera la versión de producción y hace push de la carpeta `docs/` del tirón. Te recomendamos ver el fichero `package.json` para aprender cómo funciona.
-<!--
-## Flujo de archivos con Gulp
-
-Estas tareas de Gulp producen el siguiente flujo de archivos:
-
-![Gulp flow](./gulp-flow.png)
-
-## `gulpfile.js` y `config.json`
-
-Nuestro **gulpfile.js** usa el fichero `config.json` de configuración con las rutas de los archivos a generar / observar.
-
-De esta manera separarmos las acciones que están en `gulpfile.js` de la configuración de las acciones que están en `config.json`.
--->
-## Estructura de carpetas
-
-La estructura de carpetas tiene esta pinta:
+npm start
 
 ```
-src
- ├─ api // los ficheros de esta carpeta se copian en public/api/
- |  └─ data.json
- ├─ images
- |  └─ logo.jpg
- ├─ js // los ficheros de esta carpeta se concatenan en el fichero main.js y este se guarda en public/main.js
- |  ├─ main.js
- |  └─ events.js
- ├─ scss
- |  ├─ components
- |  ├─ core
- |  ├─ layout
- |  └─ pages
- └─ html
-    └─ partials
-```
 
-> **NOTA:** Los partials de HTML y SASS del proyecto son orientativos. Te recomendamos usar los que quieras, y borrar los que no uses.
-<!--
-## Vídeotutoriales del Starter kit
+## Estructura del proyecto 
 
-- [Qué es, trabajar con la versión de desarrollo y rutas relativas](https://www.youtube.com/watch?v=XwvhXvBijos)
-- [Migración de un proyecto, trabajar con la versión de producción y GitHub Pages](https://www.youtube.com/watch?v=qqGClcgt9Uc)
-- [Motor de plantillas](https://www.youtube.com/watch?v=4GwXOJ045Zg)
--->
-## Falta algo?
+Ya dentro del proyecto, vemos que ha sido creado mediante partials de HTML que se engloban en un index.html que es lo que se muestra en la pantalla. 
+Así mismo, el SCSS se ha creado de la misma manera, trabajando en archivos individuales incluidos todos en la carpeta layout que se agrupan en el main.scss, llamado en el head del index.
 
-Echas de menos que el kit haga algo en concreto? Pidelo sin problema a través de las issues o si te animas a mejorarlo mándanos un PR :)
+Además, en la carpeta core, encontramos el archivo de reset, que regenera todos los estilos que vienen por defecto, y el archivo variables, que marca los nombres de las variables que se repiten a lo largo del proyecto y que nos facilitará el tener que hacer cambios en un futuro. 
+
+### Secciones
+
+Dentro de las secciones con las que cuenta el proyecto, encontramos algunas diferencias.
+
+- Header. El header cuenta con un pequeño menú que se compone únicamente de un icono de hamburguesa en el que se encuentran todas las opciones del menú. Por el momento, nos han pedido que estas opciones permanezcan ocultas y no se muestren visibles. Para ello hemos utilizado la propiedad display: none. Era un requisito del cliente que el menú de la hamburguesa fuera visible en todo momento.
+
+- Primera sección. Ha sido maquetada utilizando la propiedad display: flex. Y se ha utilizado la propiedad background-image para el fondo de la sección, que debe ocupar todo el alto de la pantalla. Además, el botón de la flecha que aparece debe de llevar al usuario a la sección de vuelta al cole que aparece más abajo.
+
+- Segunda sección. La sección que lleva a la tienda debía contar con un botón que diera acceso a ella que cambia de color si pasas el ratón por encima, lo que facilita al usuario a la hora de identificar que es una parte clicable.
+
+- Tercera sección. En esta sección tenemos 3 categorías diferentes que deben ser maquetadas con la propiedad de display: grid. Esta sección es una de las que más cambios representaba a la hora de implementar los media queries para hacer un diseño responsive.
+
+- Footer. Todos los elementos de las listas del footer debían de ser clicables. Al igual que el botón de la flecha hacia arriba, que nos lleva a la primera sección de todas. Esta sección también ha sido maquetada con display: grid, con el objetivo de facilitar su disposición en los cambios de los media queries.
+
+## Tecnología utilizada
+
+Las tecnologías que hemos utilizado en este proyecto son:
+- **HTML5**: Para llevar a cabo una estructura indentada correctamente y utilizar las etiquetas semánticas adecuadas para hacer el proyecto accesible.
+- **CSS3**: Incluye el uso de las propiedades Flexbox y Grid, utilizando selectores de clase.
+- **SASS**: Uso de algunas caracterísitcas como las variables, la anidación y los partials. 
+- **BEM**: Uso del sistema BEM para nombrar las clases y facilitar la anidación. Priemro el nombre de la sección de la que encuentra el elemento, seguido de su funcionalidad dentro de la sección y por último con alguna especificidad concreta y única del elemento.
+Ejemplo: header__menu--items.
+- **Media Queries**: Para hacer que el proyecto sea responsive y se ajuste a las diferentes pantallas utilizadas hoy en día se han implementado varios media queries. Uno cuando wl width de la pantalla supera los 768px y otro cuando supera los 1280px.
+
+Espero que te haya resultado interesante este proyecto. Si tienes alguna pregunta, no dudes en contactar. ¡Muchas gracias!
+
